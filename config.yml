@@ -4,7 +4,7 @@ backend:
   branch: main
   base_url: https://auth-cms-delta.vercel.app
 
-site_url: https://sc.steve.dev.br
+site_url: https://scbeautycare.com.br/
 
 media_folder: "assets" 
 public_folder: "assets"
