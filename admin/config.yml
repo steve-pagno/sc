@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: seu-usuario/repositorio-sc-beautycare # ALTE AQUI PARA SEU GITHUB
+  repo: steve-pagno/sc
   branch: main
 
 media_folder: "assets" 
