@@ -2,7 +2,9 @@ backend:
   name: github
   repo: steve-pagno/sc
   branch: main
-  base_url: https://auth-hbay27lxo-steves-projects-a8046767.vercel.app
+  base_url: https://auth-cms-delta.vercel.app
+
+site_url: https://sc.steve.dev.br
 
 media_folder: "assets" 
 public_folder: "assets"
