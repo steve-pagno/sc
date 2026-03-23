@@ -2,7 +2,6 @@ backend:
   name: github
   repo: steve-pagno/sc
   branch: main
-  base_url: https://auth-hbay27lxo-steves-projects-a8046767.vercel.app
 
 media_folder: "assets" 
 public_folder: "assets"
