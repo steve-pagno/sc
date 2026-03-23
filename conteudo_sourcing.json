@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "bg_image": "assets/1.jpeg",
+    "eyebrow": "Operação Global",
+    "title": "Sourcing Internacional Estratégico",
+    "text": "Conectando sua empresa aos melhores fabricantes globais de beleza."
+  },
+  "conexao": {
+    "title": "Conexão entre necessidade, qualidade e escala",
+    "text": "Encurtamos a distância entre a sua necessidade e os principais polos fabris do mundo. Nosso serviço de Sourcing Internacional é especializado em identificar oportunidades no exterior para itens de beleza, higiene e acessórios de cuidados pessoais.",
+    "accordion": [
+      {
+        "title": "Homologação de Fornecedores",
+        "text": "Auditoria de fábricas para garantir conformidade técnica e ética."
+      },
+      {
+        "title": "Controle de Qualidade",
+        "text": "Monitoramento rigoroso da produção antes do embarque."
+      },
+      {
+        "title": "Gestão do Fluxo de Importação",
+        "text": "Operação completa para garantir previsibilidade, custo otimizado e segurança."
+      }
+    ]
+  },
+  "features": {
+    "items": [
+      {
+        "title": "Auditoria Técnica",
+        "text": "Validação de parceiros industriais com critérios claros de conformidade."
+      },
+      {
+        "title": "Qualidade Monitorada",
+        "text": "Acompanhamento rigoroso para reduzir riscos e elevar consistência."
+      },
+      {
+        "title": "Importação Inteligente",
+        "text": "Fluxo estruturado para ganho de previsibilidade e eficiência financeira."
+      }
+    ]
+  }
+}

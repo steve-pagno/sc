@@ -1,0 +1,233 @@
+backend:
+  name: github
+  repo: seu-usuario/repositorio-sc-beautycare # ALTE AQUI PARA SEU GITHUB
+  branch: main
+
+media_folder: "assets" 
+public_folder: "assets"
+
+collections:
+  - name: "paginas"
+    label: "Páginas do Site"
+    files:
+      # --- HOME ---
+      - label: "Página Inicial (Home)"
+        name: "home"
+        file: "conteudo_home.json"
+        fields:
+          - label: "Seção Principal (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Imagem de Fundo", name: "bg_image", widget: "image"}
+              - {label: "Selo", name: "eyebrow", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Quem Somos"
+            name: "quem_somos"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Parágrafo 1", name: "text1", widget: "text"}
+              - {label: "Parágrafo 2", name: "text2", widget: "text"}
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+          - label: "Nossos Pilares"
+            name: "pilares"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - label: "Itens"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Número", name: "number", widget: "number"}
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+          - label: "Chamada (CTA)"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+
+      # --- PRIVATE LABEL ---
+      - label: "Private Label"
+        name: "private_label"
+        file: "conteudo_privatelabel.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Imagem de Fundo", name: "bg_image", widget: "image"}
+              - {label: "Selo", name: "eyebrow", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Solução"
+            name: "solucao"
+            widget: "object"
+            fields:
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto 1", name: "text1", widget: "text"}
+              - {label: "Texto 2", name: "text2", widget: "text"}
+              - label: "Timeline (Passos)"
+                name: "timeline"
+                widget: "list"
+                fields:
+                  - {label: "Número", name: "num", widget: "string"}
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+          - label: "Diferenciais"
+            name: "diferenciais"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - label: "Características"
+                name: "features"
+                widget: "list"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+          - label: "Chamada (CTA)"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+
+      # --- SOURCING ---
+      - label: "Sourcing"
+        name: "sourcing"
+        file: "conteudo_sourcing.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Imagem de Fundo", name: "bg_image", widget: "image"}
+              - {label: "Selo", name: "eyebrow", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Conexão"
+            name: "conexao"
+            widget: "object"
+            fields:
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+              - label: "Acordeão (Sanfona)"
+                name: "accordion"
+                widget: "list"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+          - label: "Características"
+            name: "features"
+            widget: "object"
+            fields:
+              - label: "Itens"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+
+      # --- PORTFÓLIO ---
+      - label: "Portfólio"
+        name: "portfolio"
+        file: "conteudo_portfolio.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Imagem de Fundo", name: "bg_image", widget: "image"}
+              - {label: "Selo", name: "eyebrow", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Produtos"
+            name: "produtos"
+            widget: "list"
+            fields:
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Destaques"
+            name: "destaques"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - label: "Características"
+                name: "features"
+                widget: "list"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+
+      # --- SC BEAUTYCARE ---
+      - label: "SC Beautycare"
+        name: "scbeautycare"
+        file: "conteudo_scbeautycare.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Imagem de Fundo", name: "bg_image", widget: "image"}
+              - {label: "Selo", name: "eyebrow", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Descrição"
+            name: "descricao"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Abas (Tabs)"
+            name: "tabs"
+            widget: "list"
+            fields:
+              - {label: "Nome da Aba", name: "label", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Características"
+            name: "features"
+            widget: "object"
+            fields:
+              - label: "Itens"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Título", name: "title", widget: "string"}
+                  - {label: "Texto", name: "text", widget: "text"}
+
+      # --- CONTATO ---
+      - label: "Contato"
+        name: "contato"
+        file: "conteudo_contato.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Imagem de Fundo", name: "bg_image", widget: "image"}
+              - {label: "Selo", name: "eyebrow", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "Texto", name: "text", widget: "text"}
+          - label: "Atendimento"
+            name: "atendimento"
+            widget: "object"
+            fields:
+              - {label: "Tag", name: "tag", widget: "string"}
+              - {label: "Título", name: "title", widget: "string"}
+              - {label: "E-mail", name: "email", widget: "string"}
+              - {label: "Áreas", name: "areas", widget: "text"}

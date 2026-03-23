@@ -1,0 +1,44 @@
+{
+  "hero": {
+    "bg_image": "assets/3.jpeg",
+    "eyebrow": "Portfólio Geral",
+    "title": "Nosso Portfólio de Produtos",
+    "text": "Linhas desenvolvidas para atender beleza, estética, higiene e uso profissional."
+  },
+  "produtos": [
+    {
+      "title": "Linha de Cutelaria Profissional",
+      "text": "Alicates de cutícula e unha, espátulas, tesouras para unhas e cabelos, navalhetes e pinças."
+    },
+    {
+      "title": "Acessórios de Beleza e Estética",
+      "text": "Lixas profissionais, pincéis e acessórios de maquiagem, curvadores de cílios e acessórios para cabelos."
+    },
+    {
+      "title": "Cuidados Pessoais e Higiene",
+      "text": "Itens de autocuidado diário, kits de viagem e acessórios em geral."
+    },
+    {
+      "title": "Instrumentos Cirúrgicos e Odontológicos",
+      "text": "Itens voltados a aplicações específicas com foco em padrão técnico e confiabilidade."
+    }
+  ],
+  "destaques": {
+    "tag": "Destaques",
+    "title": "Portfólio versátil para diferentes canais e demandas",
+    "features": [
+      {
+        "title": "Varejo",
+        "text": "Produtos de alto giro com boa aceitação comercial."
+      },
+      {
+        "title": "Profissional",
+        "text": "Ferramentas para rotinas técnicas e uso especializado."
+      },
+      {
+        "title": "Projetos Customizados",
+        "text": "Seleção de itens conforme canal, público e posicionamento de marca."
+      }
+    ]
+  }
+}

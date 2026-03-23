@@ -1,0 +1,56 @@
+{
+  "hero": {
+    "bg_image": "assets/2.jpeg",
+    "eyebrow": "Marca Própria",
+    "title": "Projetos de Marca Própria (Private Label)",
+    "text": "Transforme sua visão em produtos de alto giro com nossa expertise."
+  },
+  "solucao": {
+    "title": "Solução completa para redes, mercados e atacadistas",
+    "text1": "Na San Cayetano, somos especialistas no desenvolvimento de projetos de Marca Própria para redes de farmácias, mercados e atacadistas.",
+    "text2": "Oferecemos uma solução completa para empresas que buscam exclusividade, margens competitivas e fidelização de clientes através de produtos de marca própria.",
+    "timeline": [
+      {
+        "num": "01",
+        "title": "Definição da linha",
+        "text": "Escolha estratégica dos produtos com aderência comercial e alto giro."
+      },
+      {
+        "num": "02",
+        "title": "Produção especializada",
+        "text": "Fábricas no Paquistão e China com foco em cutelaria e acessórios de beleza."
+      },
+      {
+        "num": "03",
+        "title": "Entrega e escala",
+        "text": "Gestão até o centro de distribuição do cliente com previsibilidade operacional."
+      }
+    ]
+  },
+  "diferenciais": {
+    "tag": "Diferenciais Estratégicos",
+    "title": "Know-how completo para construir marcas fortes",
+    "features": [
+      {
+        "title": "Fábricas Especializadas",
+        "text": "Possuímos duas fábricas, no Paquistão e na China, especializadas em instrumentos de cutelaria."
+      },
+      {
+        "title": "Expertise Técnica",
+        "text": "Conhecimento profundo em fabricação, importação, exportação e distribuição."
+      },
+      {
+        "title": "Atendimento a Grandes Redes",
+        "text": "Experiência comprovada no fornecimento para os principais players do varejo nacional."
+      },
+      {
+        "title": "Gestão de Ponta a Ponta",
+        "text": "Da escolha dos produtos à entrega final no centro de distribuição do cliente."
+      }
+    ]
+  },
+  "cta": {
+    "tag": "Vamos construir sua linha?",
+    "title": "Projetos exclusivos com posicionamento, margem e competitividade"
+  }
+}

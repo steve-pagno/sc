@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "bg_image": "assets/3.jpeg",
+    "eyebrow": "Contato",
+    "title": "Fale Conosco",
+    "text": "Conecte seu negócio à excelência em beleza e cuidados pessoais."
+  },
+  "atendimento": {
+    "tag": "Canais de Atendimento",
+    "title": "Vamos conversar sobre distribuição, private label e parcerias",
+    "email": "comercial@scbeautycare.com.br",
+    "areas": "Atendimento a redes de farmácias, projetos de Private Label e parcerias de intermediação comercial."
+  }
+}

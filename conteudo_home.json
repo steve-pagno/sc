@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "bg_image": "assets/3.jpeg",
+    "eyebrow": "Distribuição • Private Label • Sourcing",
+    "title": "San Cayetano Distribuição e promoção de vendas Ltda.",
+    "text": "Elevamos o padrão de qualidade no universo da beleza e cuidados pessoais, conectando fábricas, marcas e canais de venda com eficiência, estratégia e confiança."
+  },
+  "quem_somos": {
+    "tag": "Quem Somos",
+    "title": "Especialistas em beleza, cuidados pessoais e performance comercial",
+    "text1": "Somos uma empresa dedicada a elevar o padrão de qualidade no universo da beleza e cuidados pessoais. Consolidamos nossa presença no mercado como um elo de confiança entre as melhores fábricas e os canais de venda mais exigentes.",
+    "text2": "Acreditamos que a beleza está nos detalhes. Por isso, selecionamos criteriosamente nosso portfólio para oferecer ferramentas que aliam ergonomia, durabilidade e alta performance.",
+    "cards": [
+      {
+        "title": "Intermediação Comercial",
+        "text": "Expertise em negociações que conectam grandes marcas e redes ao mercado nacional."
+      },
+      {
+        "title": "Distribuição Especializada",
+        "text": "Logística ágil e eficiente para garantir entrega segura e previsível ao ponto de venda."
+      },
+      {
+        "title": "Qualidade e Confiança",
+        "text": "Atuação orientada por relacionamento, consistência operacional e visão de longo prazo."
+      }
+    ]
+  },
+  "pilares": {
+    "tag": "Nossos Pilares",
+    "title": "Uma operação pensada de ponta a ponta",
+    "items": [
+      {
+        "number": 15,
+        "title": "+ anos de visão de mercado",
+        "text": "Atuação focada em oportunidades reais para o setor de beleza e cuidados pessoais."
+      },
+      {
+        "number": 2,
+        "title": "Polos fabris estratégicos",
+        "text": "Conexão com fábricas especializadas no Paquistão e na China para projetos estruturados."
+      },
+      {
+        "number": 100,
+        "title": "% foco em performance",
+        "text": "Qualidade, agilidade, previsibilidade logística e suporte comercial para escalar vendas."
+      }
+    ]
+  },
+  "cta": {
+    "tag": "SC Beautycare",
+    "title": "Construímos marcas, linhas e oportunidades com alto valor percebido",
+    "text": "Conheça nossas soluções em marca própria, sourcing internacional e portfólio especializado."
+  }
+}

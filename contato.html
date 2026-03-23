@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SC Beautycare | Contato</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="index.html" class="brand">
+        <img src="assets/logo.png" alt="SC Beautycare" class="brand-logo" />
+        <div><strong>SC Beautycare</strong><span>San Cayetano</span></div>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+      <nav class="main-nav" id="mainNav">
+        <a href="index.html">Home</a>
+        <a href="private-label.html">Private Label</a>
+        <a href="sc-beautycare.html">SC Beautycare</a>
+        <a href="sourcing.html">Sourcing</a>
+        <a href="portfolio.html">Portfólio</a>
+        <a href="contato.html" class="active">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-page">
+      <img src="assets/3.jpeg" alt="Capa Contato" class="hero-bg" id="hero-bg" />
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <span class="eyebrow" id="hero-eyebrow">Contato</span>
+        <h1 id="hero-title">Fale Conosco</h1>
+        <p id="hero-text">Conecte seu negócio à excelência em beleza e cuidados pessoais.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container grid-2">
+        <div class="reveal">
+          <span class="section-tag" id="att-tag">Canais de Atendimento</span>
+          <h2 id="att-title">Vamos conversar sobre distribuição, private label e parcerias</h2>
+          <p><strong>E-mail Comercial:</strong> <span id="att-email"></span></p>
+          <p><strong>Áreas de Atuação:</strong> <span id="att-areas"></span></p>
+
+          <div class="hero-actions">
+            <a href="mailto:comercial@scbeautycare.com.br" class="btn btn-primary magnetic">Enviar e-mail</a>
+            <button class="btn btn-secondary" id="copyEmailBtn" data-email="comercial@scbeautycare.com.br">Copiar e-mail</button>
+          </div>
+
+          <p id="copyFeedback" class="copy-feedback"></p>
+        </div>
+
+        <form class="contact-card reveal" onsubmit="event.preventDefault(); alert('Formulário demonstrativo.');">
+          <label>Nome <input type="text" placeholder="Seu nome" required /></label>
+          <label>Empresa <input type="text" placeholder="Nome da empresa" /></label>
+          <label>E-mail <input type="email" placeholder="seuemail@empresa.com" required /></label>
+          <label>Mensagem <textarea rows="5" placeholder="Conte um pouco sobre sua necessidade"></textarea></label>
+          <button type="submit" class="btn btn-primary magnetic">Enviar mensagem</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><h3>SC Beautycare</h3><p>Conectando negócios à excelência em beleza.</p></div>
+      <div><h4>Páginas</h4><ul><li><a href="portfolio.html">Portfólio</a></li><li><a href="sourcing.html">Sourcing</a></li></ul></div>
+      <div><h4>E-mail</h4><ul><li><a href="mailto:comercial@scbeautycare.com.br">comercial@scbeautycare.com.br</a></li></ul></div>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>

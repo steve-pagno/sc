@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "bg_image": "assets/3.jpeg",
+    "eyebrow": "Marca Própria",
+    "title": "SC Beautycare — Nossa Marca Própria",
+    "text": "Ferramentas de Precisão para Cuidados Pessoais e Profissionais."
+  },
+  "descricao": {
+    "tag": "Descrição da Linha",
+    "title": "Qualidade, custo-benefício e confiança no uso diário",
+    "text": "A SC Beautycare nasce do compromisso com a qualidade e custo benefício. Desenvolvemos esta linha exclusiva para atender o consumidor exigente que busca ferramentas confiáveis para o dia a dia sem abrir mão da qualidade e do preço competitivo."
+  },
+  "tabs": [
+    {
+      "label": "Cortadores",
+      "title": "Cortadores de Unhas",
+      "text": "Fabricados com materiais de alta resistência, garantindo um corte limpo, preciso e ergonômico."
+    },
+    {
+      "label": "Pinças",
+      "title": "Pinças de Depilar",
+      "text": "Pontas alinhadas manualmente para remoção eficaz de pelos com precisão e conforto."
+    },
+    {
+      "label": "Lixas",
+      "title": "Lixas Profissionais",
+      "text": "Ideais para desbaste e acabamento, com estrutura reforçada para maior agilidade."
+    },
+    {
+      "label": "Tesouras",
+      "title": "Tesouras de Unhas",
+      "text": "Modelos em aço de alta qualidade, ideais para acabamentos delicados e seguros."
+    }
+  ],
+  "features": {
+    "items": [
+      {
+        "title": "Alta Precisão",
+        "text": "Ferramentas desenhadas para performance consistente e uso confiável."
+      },
+      {
+        "title": "Boa Ergonomia",
+        "text": "Conforto no manuseio para consumidores e profissionais."
+      },
+      {
+        "title": "Excelente Custo-benefício",
+        "text": "Posicionamento competitivo sem abrir mão de qualidade percebida."
+      }
+    ]
+  }
+}
