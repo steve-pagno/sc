@@ -80,8 +80,9 @@ ul {
 }
 
 .brand-logo {
-  width: 90px;
+  width: 110px;
   height: auto;
+  margin: 10px;
 }
 
 .brand strong {
